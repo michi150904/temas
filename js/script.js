@@ -29,3 +29,36 @@ else {
 //?"el numero mayor es el primero"
 //:"el numero mayor es el segundo";
 //console.log(numMayor);
+
+//ciclo for determinado
+
+for (let i=1;i<=5;i++){// variable local, rango de 1 a 5, recorre cinco posiciones, se repite 5 veces
+    console.log("Hola, esoty dentro del ciclo");
+}
+
+//ciclo while indeterminado
+
+seguir=="si";//variable de inicialización
+while (seguir=="si")
+{
+    console.log("Hola estoy adentro del ciclo");
+    seguir=prompt("Desea continuar si, no")//metodo para controlar la repeticion del ciclo
+}
+
+seguir1==1;
+while (seguir1==1){
+    console.log("Hola estoy adentro del ciclo");
+    seguir=parseInt(prompt("Desea continuar 1 si,2 no"))//metodo para controlar la repeticion del ciclo
+
+}
+
+//elementos windows alert, prompt y ventana de confirmación
+
+//ventana de confirmación
+seguir2==true;
+while (seguir2==true){
+    console.log("Hola estoy adentro del ciclo");
+    seguir2=confirm("Desea continuar ")//ventana de confirmacion confirm
+
+}
+
