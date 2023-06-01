@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificaciones formularios</title>
+    <link rel="stylesheet" href="css/especificacionesform.css">
+</head>
+<body>
+    <form action="" id="formulario" novalidate>
+        <h1>especificacion formulario</h1>
+        <div id="nombre">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <div class="feedback"></div>
+        </div>
+        <div id="apellido">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+            <div class="feedback"></div>
+        </div>
+        <div id="numero">
+            <label>Numero de documento</label>
+            <input type="number" name="numero" id="numero">
+            <div class="feedback"></div>
+        </div>
+        <div id="tipodoc">
+            <label for="tipdoc">tipo documento</label>
+            <select name="tipodoc" id="tipodoc">
+                <option value="0">Seleccione un tipo de documento</option>
+                <option value="1">Tarjeta de identidad</option>
+                <option value="2">Cedula de ciudadania</option>
+                <option value="3">Pasaporte</option>
+            </select>
+            <div class="feedback"></div>
+        </div>
+        <div id="numcel">
+            <label for="numcel">Numero de celular</label>
+            <input type="number" name="numcel" id="numcel">
+            <div class="feedback"></div>
+        </div>
+        <button>enviar</button>
+    </form>
+    <script type="text/Javascript" src="js/especificarform.js"></script>
+</body>
+</html>
